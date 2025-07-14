@@ -1,12 +1,30 @@
-# React + Vite
+# 🧑‍🍳 ChefMate – Smart Recipe Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**ChefMate** is a smart AI chatbot that helps you cook with the ingredients you already have at home.  
+Just enter what’s in your kitchen, and ChefMate suggests a complete recipe using those items.
 
-Currently, two official plugins are available:
+## 🔥 Features
+- Add/remove ingredients
+- Real-time recipe generation (via Hugging Face API)
+- Beautiful, animated button interactions
+- Fully responsive & mobile-friendly
+- Loading spinner and error handling
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- React + Vite
+- CSS (Flexbox, Media Queries)
+- Hugging Face API
+- Deployed on Github
 
-## Expanding the ESLint configuration
+## 📸 Screenshots
+[Include some GIFs/screenshots]
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Live Demo
+[Link to deployed site]
+
+## 📚 What I Learned
+- Clean component structure in React
+- Responsive design principles
+- Handling API states (loading/error/success)
+- Adding interactive UI with CSS animations
+
