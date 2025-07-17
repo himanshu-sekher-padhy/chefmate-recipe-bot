@@ -1,4 +1,4 @@
-- # 🧑‍🍳 ChefMate – Smart Recipe Generator
+# 🧑‍🍳 ChefMate – Smart Recipe Generator
 
 Welcome to **ChefMate** — an intelligent AI-powered recipe assistant that helps you cook using ingredients you already have at home.
 Just enter what’s in your kitchen, and ChefMate suggests a complete recipe using those items. 
