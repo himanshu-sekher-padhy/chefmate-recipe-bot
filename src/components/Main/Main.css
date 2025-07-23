@@ -1,0 +1,110 @@
+main {
+  padding: 6.25rem 1.875rem 0.625rem;
+}
+
+main > .add-ingredient-form {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  height: 2.375rem;
+}
+
+main > .add-ingredient-form > input {
+  flex-grow: 1;
+  min-width: 150px;
+  max-width: 400px;
+  border-radius: 6px;
+  border: 1px solid #D1D5DB;
+  padding: 0.5625rem 0.8125rem;
+  box-shadow: 1px 3px 5px 0.5px rgba(0, 0, 0, 0.077);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+main > .add-ingredient-form > button {
+  width: 150px;
+  border: none;
+  border-radius: 6px;
+  background-color: #141413;
+  color: #FAFAF8;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  box-shadow: 1px 3px 5px 0.5px rgba(0, 0, 0, 0.077);
+  cursor: pointer;
+}
+
+main > .add-ingredient-form > button::before {
+  content: "+";
+  margin-right: 4px;
+}
+
+/* Responsive Text Control */
+.mobile-text {
+  display: none;
+}
+
+.desktop-text {
+  display: inline;
+}
+
+/* Responsive Container */
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2.5rem 5%;
+}
+
+
+
+
+/*Tablet*/
+@media (max-width: 768px) {
+  .desktop-text {
+    display: none;
+  }
+
+  .mobile-text {
+    display: inline;
+  }
+
+  main {
+    margin: 40px 0px 0px;
+    padding: 4rem 1rem 1rem;
+  }
+
+  main > .add-ingredient-form {
+    flex-direction: row;
+    gap: 0.5rem;
+    height: auto;
+  }
+
+  main > .add-ingredient-form > button {
+    width: 100px;
+  }
+
+  main > .add-ingredient-form > input {
+    width: 60px;flex-grow: 1;
+    min-width: 128px;
+    max-width: 360px;
+  }
+  
+}
+
+/*Mobile screen*/
+@media (max-width: 480px) {
+  main > .add-ingredient-form{
+    height: 2rem;
+  }
+
+  main {
+    margin: 32px 0px 0px;
+    padding: 4rem 1rem 1rem;
+  }
+
+  main > .add-ingredient-form > button {
+  width: 90px;
+  }
+
+}
