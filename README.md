@@ -8,7 +8,7 @@ ChefMate generates delicious recipes in real-time using a smart NLP model from H
 
 ## 🎬 Preview
 
-![Preview](src/assets/ChefMatePreview.jpeg)
+![Preview](src/assets/preview.jpeg)
 
 ---
 
